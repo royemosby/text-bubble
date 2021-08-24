@@ -10,7 +10,6 @@ main {
 
 #bubble {
   height: 300px;
-  width: 450px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -19,16 +18,15 @@ main {
 
 #bubble img {
   height: 100%;
-  /*overflow: hidden depends on how I want to handle overflow...*/
 }
 
 #bubble-overlay {
+  height: 100%;
   position: absolute;
   top: 0
 }
 
 #quote {
-  /*height: 300px;*/
   color: white;
   font-size: 1.1em;
   margin: 0;
@@ -37,7 +35,7 @@ main {
 
 #left {
   float: left;
-  height: 300px;
+  height: 100%;
   width: 50%;
   shape-outside: polygon(0 0,
       100% 0,
@@ -54,9 +52,8 @@ main {
 }
 
 #right {
-  content: "";
   float: right;
-  height: 300px;
+  height: 100%;
   width: 50%;
   shape-outside: polygon(0 0,
       100% 0,
